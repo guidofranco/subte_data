@@ -9,3 +9,7 @@ En el sitio [Buenos Aires Data]() se encuentra una gran variedad de datos abiert
 Se trabaja de manera local con una imagen de docker que incluye todo lo necesario para trabajar con PySpark
 
 Dicha docker image está disponible [aquí](https://hub.docker.com/r/jupyter/pyspark-notebook/)
+
+El proceso consistió en extraer varios archivos csv, remover y modificar columnas y, finalmente, cargar los datos modificados a una base de datos PostgreSQL
+
+![ETL](etl.png)
